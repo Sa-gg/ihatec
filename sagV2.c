@@ -92,6 +92,7 @@ int continueProgram() {
         } else if (continueChoice == 'Y' || continueChoice == 'y') {
             return true;
         } else {
+            system("cls");
             return false;
         }
     } while (true);
